@@ -7,6 +7,11 @@ body {
     height: 100vh;
 }
 
+a:hover{
+    color: #6497b1;
+    text-decoration: none;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -15,4 +20,17 @@ a{
         color: #6497b1;
         text-decoration: none;
     }
+}
+
+.margin{
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+i{
+    position: relative;
+}
+
+[data-url]{
+    cursor: pointer;
 }
