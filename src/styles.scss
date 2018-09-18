@@ -34,3 +34,24 @@ i{
 [data-url]{
     cursor: pointer;
 }
+
+.meetingCard{
+    .card{
+        height: 175px;
+        
+        .card-text{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: block; /* Fallback for non-webkit */
+            display: -webkit-box;
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+            line-height: 1.5rem;
+            max-height: 50px; /* Fallback for non-webkit */
+        }
+    }
+}
+
+[routerLink]{
+    cursor: pointer;
+}

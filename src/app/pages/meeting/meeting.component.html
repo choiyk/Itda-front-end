@@ -1,3 +1,107 @@
-<p>
-  meeting works!
-</p>
+<section id="meetingMain" class="container">
+  <!--검색바-->
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="내게 맞는 모임 찾기" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2">검색</button>
+    </div>
+  </div>
+  <!--탭-->
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-homeMeeting-tab" data-toggle="tab" href="#nav-homeMeeting" role="tab" aria-controls="nav-homeMeeting" aria-selected="true">전체 모임</a>
+      <a class="nav-item nav-link" id="nav-myMeeting-tab" data-toggle="tab" href="#nav-myMeeting" role="tab" aria-controls="nav-myMeeting" aria-selected="false">내 모임</a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <!--전체 모임-->
+    <div class="tab-pane fade show active" id="nav-homeMeeting" role="tabpanel" aria-labelledby="nav-homeMeeting-tab">
+      <!--모임 카드-->
+      <div class="meetingCard">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" routerLink="#">
+              <div class="card-body">
+                <h5 class="card-title">JAVA Project Itda - 스터디 모임</h5>
+                <p class="card-text">모임 설명.. With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">개설일: 2018년 09월 18일 / 참여인원: 00명</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" routerLink="#">
+              <div class="card-body">
+                <h5 class="card-title">JAVA Project Itda - 스터디 모임</h5>
+                <p class="card-text">모임 설명.. With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">개설일: 2018년 09월 18일 / 참여인원: 00명</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--모임 카드 end-->
+    </div>
+    <!--내 모임-->
+    <div class="tab-pane fade" id="nav-myMeeting" role="tabpanel" aria-labelledby="nav-myMeeting-tab">
+      <p>개설한 모임</p>
+      <!--모임 카드-->
+      <div class="meetingCard">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" routerLink="#">
+              <div class="card-body">
+                <h5>&nbsp;</h5>
+                <h5 class="card-title text-center">모임 시작하기</h5>
+                <h2 class="card-title text-center"><i class="material-icons">add_circle</i></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" routerLink="#">
+              <div class="card-body">
+                <h5 class="card-title">JAVA Project Itda - 스터디 모임</h5>
+                <p class="card-text">모임 설명.. With supporting text below as a natural lead-in to additional content.모임 설명.. With supporting text below as a natural lead-in to additional content.</p>
+                <a routerLink="#" class="btn btn-info">관리</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--모임 카드 end-->
+      <div class="margin"></div>
+      <p>가입한 모임</p>
+      <!--모임 카드-->
+      <div class="meetingCard">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" routerLink="#">
+              <div class="card-body">
+                <h5 class="card-title">JAVA Project Itda - 스터디 모임</h5>
+                <p class="card-text">모임 설명.. With supporting text below as a natural lead-in to additional content.모임 설명.. With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">개설일: 2018년 09월 18일 / 참여인원: 00명</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" routerLink="#">
+              <div class="card-body">
+                <h5 class="card-title">JAVA Project Itda - 스터디 모임</h5>
+                <p class="card-text">모임 설명.. With supporting text below as a natural lead-in to additional content.모임 설명.. With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">개설일: 2018년 09월 18일 / 참여인원: 00명</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--모임 카드 end-->
+    </div>
+  </div>
+</section>
