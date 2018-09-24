@@ -1,0 +1,30 @@
+.moreBtn{
+    margin: 10px 0px;
+
+    i{
+        top: 5px;
+    }
+}
+
+.addCard{
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+
+    .card-title, .card-text{
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+.addCard:hover{
+    color: #6497b1;
+}
+
+.cardMute{
+    .card{
+        background-color: #cacaca;
+
+        img, .card-body{
+            opacity: 0.7;
+        }
+    }
+}

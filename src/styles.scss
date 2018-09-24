@@ -31,8 +31,9 @@ i{
     position: relative;
 }
 
-[data-url]{
+[data-url]:hover{
     cursor: pointer;
+    // border-color: #6497b1;
 }
 
 .meetingCard{
