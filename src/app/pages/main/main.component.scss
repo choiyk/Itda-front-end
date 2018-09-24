@@ -1,8 +1,4 @@
 .card{
-    .siteName{
-        margin-left: 20px;
-        width: 60%;
-    }
 
     .card-body{
         i{
@@ -11,3 +7,38 @@
         }
     }
 }
+
+.onoffmixCard{
+
+    img{
+        padding: 0px 0px 0px 10px;
+        width: 250px;
+    }
+}
+
+.campuspickCard{
+
+    .title{
+        background-color: #1dcdff;
+    }
+    
+    img{
+        padding: 15px 10px;
+        width: 150px;
+    }
+}
+
+.ecareerCard{
+    img{
+        padding: 15px 10px;
+        width: 250px;
+    }
+
+    .ecareerCategory{
+        list-style: none;
+        padding: 3px 20px;
+        background-color: #6497b1;
+        color: white;
+    }
+}
+
