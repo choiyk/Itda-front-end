@@ -95,3 +95,37 @@ i{
         left: 60px;
     }
 }
+
+#summery{
+    padding: 5px;
+
+    div{
+        margin: 10px 0px;
+    }
+
+    .title{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 10px 0px 20px 0px;
+    }
+
+    i{
+        top: 5px;
+        margin: 0px 5px 0px 0px;
+    }
+
+    .btn-toolbar{
+        float: right;
+        margin: 30px 10px 0px 0px;
+
+        div, button{
+            margin: 0px 0px 0px 10px;
+        }
+    }
+}
+
+.writeDate{
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 0px 0px 10px 0px;
+}
