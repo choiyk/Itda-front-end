@@ -137,12 +137,14 @@
 <section id="mainMeeting" class="container">
   <p><a routerLink="meeting">신규 모임</a></p>
   <!--검색바-->
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="내게 맞는 모임 찾기" aria-label="Recipient's username" aria-describedby="button-addon2">
-    <div class="input-group-append">
-      <button class="btn btn-outline-secondary" type="button" id="button-addon2">검색</button>
+  <form>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="내게 맞는 모임 찾기" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit" id="button-addon2">검색</button>
+      </div>
     </div>
-  </div>
+  </form>
   <!--모임 카드-->
   <div class="meetingCard">
     <div class="row">

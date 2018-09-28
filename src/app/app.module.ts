@@ -8,6 +8,10 @@ import { MenuComponent } from './ui/menu/menu.component';
 import { MainComponent } from './pages/main/main.component';
 import { JobInfoComponent } from './pages/job-info/job-info.component';
 import { EventComponent } from './pages/event/event.component';
+import { EventDetailComponent } from './pages/event-detail/event-detail.component';
+import { EventWriteComponent } from './pages/event-write/event-write.component';
+import { MeetingDetailComponent } from './pages/meeting-detail/meeting-detail.component';
+import { MeetingWriteComponent } from './pages/meeting-write/meeting-write.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { EventComponent } from './pages/event/event.component';
     MenuComponent,
     MainComponent,
     JobInfoComponent,
-    EventComponent
+    EventComponent,
+    EventDetailComponent,
+    EventWriteComponent,
+    MeetingDetailComponent,
+    MeetingWriteComponent
   ],
   imports: [
     BrowserModule,
