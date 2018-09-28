@@ -97,7 +97,7 @@ i{
 }
 
 #summery{
-    padding: 5px;
+    padding: 15px 10px 10px 10px;
 
     div{
         margin: 10px 0px;
@@ -106,7 +106,7 @@ i{
     .title{
         font-size: 1.2rem;
         font-weight: bold;
-        margin: 10px 0px 20px 0px;
+        margin: 0px 0px 20px 0px;
     }
 
     i{
@@ -120,6 +120,11 @@ i{
 
         div, button{
             margin: 0px 0px 0px 10px;
+
+            span{
+                vertical-align: middle;
+                vertical-align: -webkit-baseline-middle;
+            }
         }
     }
 }
