@@ -1,3 +1,58 @@
-<p>
-  event-write works!
-</p>
+<!--요약-->
+<section class="content card" id="summery">
+  <div class="row">
+    <div class="col-4 thumnail">
+        <img src="/src/assets/img/noimg_large.gif" alt="Card image cap">
+        <div class="input-group file">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputGroupFile" aria-describedby="inputGroupFileAddon04">
+            <label class="custom-file-label" for="inputGroupFile">Choose file</label>
+          </div>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon">Upload</button>
+          </div>
+        </div>
+    </div>
+    <div class="col input">
+      <div class="title">글쓰기</div>
+      <form>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputTitle">제목</span>
+          </div>
+          <input type="text" class="form-control" id="inputTitle" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">시작/종료 날짜</span>
+          </div>
+          <input type="date" class="form-control">
+          <input type="date" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputPlace">장소</span>
+          </div>
+          <input type="text" class="form-control" id="inputPlace" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputHost">주최</span>
+          </div>
+          <input type="text" class="form-control" id="inputHost" aria-describedby="basic-addon3">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<div class="margin"></div>
+<!--상세-->
+<section class="content">
+  <form>
+    <div class="form-group">
+      <label for="inputText">상세 설명</label>
+      <textarea class="form-control" id="inputText" rows="15" placeholder="내용을 입력하세요."></textarea>
+    </div>
+    <button type="submit" class="btn btn-info mb-2 float-right">등록</button>
+  </form>
+</section>
