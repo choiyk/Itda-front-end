@@ -1,0 +1,16 @@
+ul{
+    text-align: center;
+    padding-left: 0px;
+
+    li{
+        color: gray;
+        list-style: none;
+        display: inline;
+        padding: 0px 10px;
+        border-left: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    li:nth-child(1){
+        border-left: none;
+    }
+}

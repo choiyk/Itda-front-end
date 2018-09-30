@@ -9,6 +9,9 @@ import { EventDetailComponent } from './pages/event-detail/event-detail.componen
 import { EventWriteComponent } from './pages/event-write/event-write.component';
 import { MeetingDetailComponent } from './pages/meeting-detail/meeting-detail.component';
 import { MeetingWriteComponent } from './pages/meeting-write/meeting-write.component';
+import { JoinComponent } from './pages/join/join.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SettingMenuComponent } from './pages/setting-menu/setting-menu.component';
 
 const routes: Routes = [
   {
@@ -42,6 +45,18 @@ const routes: Routes = [
   {
     path: 'meeting-write',
     component: MeetingWriteComponent
+  },
+  {
+    path: 'join',
+    component: JoinComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'setting-menu',
+    component: SettingMenuComponent
   }
 ];
 
