@@ -1,8 +1,8 @@
 <div class="writeDate">작성일: 0000년 00월 00일 / 작성자: 김성태</div>
 <!--요약-->
-<section class="content card">
+<section class="content card" id="summery">
   <div class="row">
-    <div class="col-4 thumnail" id="summery">
+    <div class="col-4 thumnail">
         <img src="https://cfile1.onoffmix.com/attach/F08XlD8UH9zYNJEwues5738zOYwuowqG" alt="Card image cap">
     </div>
     <div class="col">
@@ -37,16 +37,7 @@
   <div class="tab-content" id="nav-tabContent">
     <!--상세설명-->
     <div class="tab-pane fade show active" id="nav-detail" role="tabpanel" aria-labelledby="nav-detail-tab">
-        
-      청년창업 인큐베이션 프로그램인 스타트업 스쿨에서
-
-        창업 슈퍼히어로(Super Hero)가 될 4기 참가자를 모집합니다!
-        
-         
-        
-        입문캠프를 통해 기업가정신을 배우고, 6주간의 린스타트업(Lean Startup)교육을 통하여
-        
-        프로토타입(시제품) 제작 완성을 목표로 합니다.
+      <div [innerHTML]="content_detail | safeHtml"></div>
     </div>
     <!--문의하기-->
     <div class="tab-pane fade" id="nav-question" role="tabpanel" aria-labelledby="nav-question-tab">

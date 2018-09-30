@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule} from '@angular/common/http';
+import { AngularEditorModule } from '@kolkov/angular-editor';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +15,7 @@ import { EventDetailComponent } from './pages/event-detail/event-detail.componen
 import { EventWriteComponent } from './pages/event-write/event-write.component';
 import { MeetingDetailComponent } from './pages/meeting-detail/meeting-detail.component';
 import { MeetingWriteComponent } from './pages/meeting-write/meeting-write.component';
+import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 
 @NgModule({
   declarations: [
@@ -24,11 +28,15 @@ import { MeetingWriteComponent } from './pages/meeting-write/meeting-write.compo
     EventDetailComponent,
     EventWriteComponent,
     MeetingDetailComponent,
-    MeetingWriteComponent
+    MeetingWriteComponent,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule, 
+    AngularEditorModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
