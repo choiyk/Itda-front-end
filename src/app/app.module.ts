@@ -16,6 +16,9 @@ import { EventWriteComponent } from './pages/event-write/event-write.component';
 import { MeetingDetailComponent } from './pages/meeting-detail/meeting-detail.component';
 import { MeetingWriteComponent } from './pages/meeting-write/meeting-write.component';
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { JoinComponent } from './pages/join/join.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SettingMenuComponent } from './pages/setting-menu/setting-menu.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,10 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     EventWriteComponent,
     MeetingDetailComponent,
     MeetingWriteComponent,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    JoinComponent,
+    LoginComponent,
+    SettingMenuComponent
   ],
   imports: [
     BrowserModule,
